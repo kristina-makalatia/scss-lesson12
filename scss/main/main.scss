@@ -1,0 +1,23 @@
+.bg-section {
+    background: grey;
+    .wraper {
+        display: flex;
+        justify-content: space-between;
+        .test {
+            color: $color01;
+            font-family: $font01;
+            padding: $size01;
+            &:hover {
+                color: #fff;
+            }
+        }
+        .test2 {
+            color: $color02;
+            &::before {
+                
+            }
+        }
+    }
+}
+
+
